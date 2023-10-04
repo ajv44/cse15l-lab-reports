@@ -11,7 +11,8 @@ print 'indent 4 spaces'
 also the backticks is the same key as the squigly
 ```
 
-Below this is a line then a list
+Below this is a line then a list:
+
 ***
 1. A
 2. B
