@@ -1,3 +1,3 @@
 # Lab 1 
 *This text is italicized.*
-**This text is BOLD*
+**This text is BOLD**
