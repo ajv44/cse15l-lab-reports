@@ -8,6 +8,13 @@
 # code block
 print '3 backticks or'
 print 'indent 4 spaces'
+also the backticks is the same key as the squigly
 ```
 
-'what' does this look like
+Below this is a line then a list
+***
+1. A
+2. B
+3. C
+
+`blah` blah `blah` 
