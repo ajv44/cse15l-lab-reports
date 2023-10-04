@@ -1,2 +1,3 @@
-# Lab 1 Test
-*testing*
+# Lab 1 
+*This text is italicized.*
+**This text is BOLD*
