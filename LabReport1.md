@@ -6,19 +6,23 @@ CSE 15L A00, A08<br>
 
 ## The Basic FileSystem Commands
 `cd` - "Change Directory" <br>
-**Example 1:** Command with *no* arguments. <br><br>
+**Example 1:** Command with *no* arguments. <br>
 ```
 # code block
 
 # output
 ```
-**Example 2:** Command with a path to a *directory* as an argument. <br><br>
+The **Working Directory** for this command is... <br>
+**Output Explanation:** blah <br>
+///Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
+
+**Example 2:** Command with a path to a *directory* as an argument. <br>
 ```
 # code block
 
 # output
 ```
-**Example 3:** Command with a path to a *file* as an argument. <br><br>
+**Example 3:** Command with a path to a *file* as an argument. <br>
 ```
 # code block
 
