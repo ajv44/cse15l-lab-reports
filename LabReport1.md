@@ -42,6 +42,8 @@ The **Working Directory** for this command is... <br>
 **Example 1:** Command with *no* arguments. <br>
 ```
 # code block
+
+# output
 ```
 The **Working Directory** for this command is... <br>
 **Output Explanation:** blah <br>
