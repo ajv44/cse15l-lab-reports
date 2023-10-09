@@ -9,18 +9,20 @@ CSE 15L A00, A08<br>
 **Example 1:** Command with *no* arguments. <br><br>
 ```
 # code block
-cd <>
 
 # output
-
 ```
 **Example 2:** Command with a path to a *directory* as an argument. <br><br>
 ```
 # code block
+
+# output
 ```
 **Example 3:** Command with a path to a *file* as an argument. <br><br>
 ```
 # code block
+
+# output
 ``` 
 
 ***
@@ -33,10 +35,14 @@ cd <>
 **Example 2:** Command with a path to a *directory* as an argument. <br><br>
 ```
 # code block
+
+# output
 ```
 **Example 3:** Command with a path to a *file* as an argument. <br><br>
 ```
 # code block
+
+# output
 ```
 
 ***
@@ -45,12 +51,18 @@ cd <>
 **Example 1:** Command with *no* arguments. <br><br>
 ```
 # code block
+
+# output
 ```
 **Example 2:** Command with a path to a *directory* as an argument. <br><br>
 ```
 # code block
+
+# output
 ```
 **Example 3:** Command with a path to a *file* as an argument. <br><br>
 ```
 # code block
+
+# output
 ```
