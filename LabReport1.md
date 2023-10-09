@@ -47,7 +47,7 @@ The **Working Directory** for this command is... <br>
 ```
 The **Working Directory** for this command is... <br>
 **Output Explanation:** blah <br>
-///Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. <br><br>
+///Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. <br>
 
 **Example 2:** Command with a path to a *directory* as an argument. <br>
 ```
@@ -57,7 +57,7 @@ The **Working Directory** for this command is... <br>
 ```
 The **Working Directory** for this command is... <br>
 **Output Explanation:** blah <br>
-///Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. <br><br>
+///Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. <br>
 
 **Example 3:** Command with a path to a *file* as an argument. <br>
 ```
@@ -79,7 +79,7 @@ The **Working Directory** for this command is... <br>
 ```
 The **Working Directory** for this command is... <br>
 **Output Explanation:** blah <br>
-///Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. <br><br>
+///Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. <br>
 **Example 2:** Command with a path to a *directory* as an argument. <br>
 ```
 # code block
@@ -88,7 +88,7 @@ The **Working Directory** for this command is... <br>
 ```
 The **Working Directory** for this command is... <br>
 **Output Explanation:** blah <br>
-///Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. <br><br>
+///Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error. <br>
 **Example 3:** Command with a path to a *file* as an argument. <br>
 ```
 # code block
