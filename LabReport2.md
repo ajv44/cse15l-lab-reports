@@ -22,7 +22,6 @@ class Handler implements URLHandler {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
                     num++;
-                    parameters[1] = parameters[1].replace("+"," ");
                     str += num + ". " + parameters[1] + "\n";
                     return String.format("%s", parameters[1], str);
                 }
@@ -52,7 +51,10 @@ I couldn't continue with the next part of the report because an error was poppin
 ![Image](https://github.com/ajv44/cse15l-lab-reports/blob/main/Screenshot%202023-10-22%20at%2011.34.14%20PM.png)
 
 <br>
+I have been trying to figure out how to fix this but I have been unsuccessful. Since there's no Piazza for this class, I'm just waiting for the CSE tutoring opens up again. I hope I'm allowed to redo this.
 
 ## Part 2
+N/A
 
 ## Part 3
+N/A - - I thought I learned it in the lab but since I can't currently re-create it I guess not lol.
