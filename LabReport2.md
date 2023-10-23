@@ -46,7 +46,11 @@ class StringServer {
 }
 ```
 <br>
-I couldn't continue with the next part of the report because of some issue that was coming up.
+I couldn't continue with the next part of the report because an error was popping up when I tried making a port for `StringServer.java`. I tried re-creating Lab 2 and the same error came up for `NumberServer.java` which is the image below.
+<br>
+
+![Image](https://github.com/ajv44/cse15l-lab-reports/blob/main/Screenshot%202023-10-22%20at%2011.34.14%20PM.png)
+
 <br>
 
 ## Part 2
