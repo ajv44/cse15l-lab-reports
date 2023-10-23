@@ -2,7 +2,7 @@
 Anthony Villalino<br>
 Professor Politz<br>
 CSE 15L A00, A08<br>
-9 October 2023
+22 October 2023
 
 ## The Basic FileSystem Commands
 `cd` - "Change Directory" <br>
