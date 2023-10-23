@@ -45,6 +45,9 @@ class StringServer {
     }
 }
 ```
+<br>
+I couldn't continue with the next part of the report because of some issue that was coming up.
+<br>
 
 ## Part 2
 
