@@ -63,16 +63,23 @@ class StringServer {
 ## Part 2
 
 **The path to the *private* key:** <br>
-
+<img width="550" alt="Screenshot 2023-11-05 at 11 41 04 PM" src="https://github.com/ajv44/cse15l-lab-reports/assets/146896794/ba4bacf0-8a09-4962-950f-fe49898aab86">
 <br>
 
 **The path to the *public* key:** <br>
+<img width="574" alt="Screenshot 2023-11-05 at 11 36 26 PM" src="https://github.com/ajv44/cse15l-lab-reports/assets/146896794/8b573461-52e0-42de-8bb9-851dfcbdc0dc">
+<br>
+<img width="747" alt="Screenshot 2023-11-05 at 11 37 32 PM" src="https://github.com/ajv44/cse15l-lab-reports/assets/146896794/0750fd28-a069-4ca9-8d13-34d2034a207b">
+<br>
+- I don't know why `authorized_keys` wasn't accessible. This message popped up when I tried making the SSH key: <br>
+<img width="367" alt="Screenshot 2023-11-05 at 11 51 39 PM" src="https://github.com/ajv44/cse15l-lab-reports/assets/146896794/8da999ca-9499-4518-9847-e245f40ac22c">
+<br>
 
 <br>
 
 **Logging into `ieng6` without a password:** <br>
-
+- Due to the reason above, I couldn't log into `ieng6` without my password. 
 <br>
 
 ## Part 3
-N/A - - I thought I learned it in the lab but since I can't currently re-create it I guess not lol.
+I thought I learned in this week's lab how to set up an SSH key and authorize myself to not need my password when connecting to the remote server, but I couldn’t replicate it at home. I don’t know why this is occurring and I wish I spent more time on this just in case a random obstacle came up again. 
