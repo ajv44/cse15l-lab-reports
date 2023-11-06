@@ -40,7 +40,11 @@ class StringServer {
     }
 }
 ```
-
+<br>
+![Image](https://github.com/ajv44/cse15l-lab-reports/blob/main/Screenshot%202023-11-05%20at%2010.09.18%20PM.png) <br>
+Test
+<br>
+![Image](https://github.com/ajv44/cse15l-lab-reports/blob/main/Screenshot%202023-11-05%20at%2010.09.18%20PM.png)
 
 ## Part 2
 N/A
