@@ -93,7 +93,7 @@ find ./technical -type f -name cc2358.txt
 # output
 ./technical/biomed/cc2358.txt
 ```
-Explanation: 
+**Explanation:** This is searching to find a file by its name inside `/technical`. This is useful because you can navigate to the subdirectory it is in, which in this case is `/biomed`. 
 
 <br>
 
@@ -105,7 +105,7 @@ find ./technical -type f -name pmed.0020281.txt
 # output
 ./technical/plos/pmed.0020281.txt
 ```
-Explanation: 
+**Explanation:** This is searching for a file by its name and returned the path which is useful when you want to analyze specific files. 
 
 <br>
 **Source:** https://www.redhat.com/sysadmin/linux-find-command
@@ -121,7 +121,7 @@ find ./technical -type f -size -1k
 ./technical/plos/pmed.0020191.txt
 ./technical/plos/pmed.0020226.txt
 ```
-Explanation: 
+**Explanation:** This is searching for a file by its size which in this case is less than 1 kilobyte. This is helpful because you can quickly identify and manage files from inside the specified directory's structure. 
 
 <br>
 
@@ -149,10 +149,10 @@ find ./technical -type f -size -2k
 ./technical/plos/pmed.0020082.txt
 ./technical/plos/pmed.0020120.txt
 ```
-Explanation: 
+**Explanation:** This is searching for a file that is less than 2k. The reason why it's helpful is the same as above. I thought it was fun to notice that the output from Example 1 is also in Example 2.
 
 <br>
-**Source:** https://www.redhat.com/sysadmin/linux-find-command
+**Source:** https://unix.stackexchange.com/questions/638335/find-command-size-behavior
 <br>
 
 ## Find a file by type
@@ -180,7 +180,7 @@ find ./technical/911report -type f
 ./technical/911report/chapter-10.txt
 ./technical/911report/chapter-11.txt
 ```
-Explanation: 
+**Explanation:** This is searching for a file that is specifically a regular file, not a directory, symlink, etc. which is helpful when a subdirectory has multiple types of files.
 
 <br>
 
@@ -202,7 +202,7 @@ find ./technical -type d
 ./technical/biomed
 ./technical/911report
 ```
-Explanation: 
+**Explanation:** This is searching for a file that is specifically a directory, which is useful in getting a quick layout of the structure of the directory.
 
 <br>
 **Source:** https://www.redhat.com/sysadmin/linux-find-command
@@ -232,7 +232,7 @@ find ./technical/911report  -iname "*chapter*txt"
 ./technical/911report/chapter-10.txt
 ./technical/911report/chapter-11.txt
 ```
-Explanation: 
+**Explanation:** This is searching for a file using its approximate name which is useful in this case if you don't remember the number of chapters there are.
 
 <br>
 
@@ -248,7 +248,7 @@ find ./technical -iname "*pmed.002018*txt"
 ./technical/plos/pmed.0020181.txt
 ./technical/plos/pmed.0020180.txt
 ```
-Explanation: 
+**Explanation:** This is also searching for a file using its approximate name but in this case it is useful if you don't remember the exact suffix of the numbering system in the `/technical/plos` directory.
 
 <br>
 **Source:** https://www.redhat.com/sysadmin/linux-find-command
