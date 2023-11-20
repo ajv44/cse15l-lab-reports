@@ -79,4 +79,177 @@ This causes elements to be prematurely overwritten, which leads to an incorrect 
 The method after the change swaps the elements around the midpoint. 
 This ensures that each element is in the correct position in reversed order. 
 Ultimately, the method before the change replaced each element with its counterpart from the end of the array without proper swapping.
+
 # Part 2 - Research Commands
+
+We'll be exploring four different ways to use the `find` command.
+
+## Find a file by name
+**Example 1:**
+```
+# code
+find ./technical -type f -name cc2358.txt
+
+# output
+./technical/biomed/cc2358.txt
+```
+Explanation: 
+
+<br>
+
+**Example 2:**
+```
+# code
+find ./technical -type f -name pmed.0020281.txt
+
+# output
+./technical/plos/pmed.0020281.txt
+```
+Explanation: 
+
+<br>
+**Source:** https://www.redhat.com/sysadmin/linux-find-command
+<br>
+
+## Find a file by size 
+**Example 1:**
+```
+# code
+find ./technical -type f -size -1k
+
+# output
+./technical/plos/pmed.0020191.txt
+./technical/plos/pmed.0020226.txt
+```
+Explanation: 
+
+<br>
+
+**Example 2:**
+```
+# code
+find ./technical -type f -size -2k
+
+# output
+./technical/government/Media/Helping_Hands.txt
+./technical/government/Media/Campaign_Pays.txt
+./technical/government/Media/Fire_Victims_Sue.txt
+./technical/government/Media/Court_Keeps_Judge_From.txt
+./technical/government/Media/It_Pays_to_Know.txt
+./technical/government/Media/Self-Help_Website.txt
+./technical/government/Media/Justice_requests.txt
+./technical/government/Media/Wilmington_lawyer.txt
+./technical/government/Media/Lawyer_Web_Survey.txt
+./technical/plos/pmed.0020048.txt
+./technical/plos/pmed.0020028.txt
+./technical/plos/pmed.0020191.txt
+./technical/plos/pmed.0020226.txt
+./technical/plos/pmed.0020192.txt
+./technical/plos/pmed.0020157.txt
+./technical/plos/pmed.0020082.txt
+./technical/plos/pmed.0020120.txt
+```
+Explanation: 
+
+<br>
+**Source:** https://www.redhat.com/sysadmin/linux-find-command
+<br>
+
+## Find a file by type
+**Example 1:**
+```
+# code
+find ./technical/911report -type f
+
+# output
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-8.txt
+./technical/911report/preface.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+```
+Explanation: 
+
+<br>
+
+**Example 2:**
+```
+# code
+find ./technical -type d
+
+# output
+./technical
+./technical/government
+./technical/government/About_LSC
+./technical/government/Env_Prot_Agen
+./technical/government/Alcohol_Problems
+./technical/government/Gen_Account_Office
+./technical/government/Post_Rate_Comm
+./technical/government/Media
+./technical/plos
+./technical/biomed
+./technical/911report
+```
+Explanation: 
+
+<br>
+**Source:** https://www.redhat.com/sysadmin/linux-find-command
+<br>
+
+## Find a file by approximate name
+**Example 1:**
+```
+# code
+find ./technical/911report  -iname "*chapter*txt"
+
+# output
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-9.txt
+./technical/911report/chapter-8.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+```
+Explanation: 
+
+<br>
+
+**Example 2:**
+```
+# code
+find ./technical -iname "*pmed.002018*txt"
+
+# output
+./technical/plos/pmed.0020189.txt
+./technical/plos/pmed.0020187.txt
+./technical/plos/pmed.0020182.txt
+./technical/plos/pmed.0020181.txt
+./technical/plos/pmed.0020180.txt
+```
+Explanation: 
+
+<br>
+**Source:** https://www.redhat.com/sysadmin/linux-find-command
+<br>
