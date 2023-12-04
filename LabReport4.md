@@ -16,7 +16,7 @@
 <img width="502" alt="Screenshot 2023-12-03 at 9 13 23 PM" src="https://github.com/ajv44/cse15l-lab-reports/assets/146896794/c26577a1-05fe-4afd-a225-4a2ad344d1d9">
 <br>
 
-*Keys Pressed*: I typed `git clone` then pressed `<Command-V>` and `<enter>` to paste the SSH URL for the repository. 
+*Keys Pressed*: I typed `git clone` then pressed `<Command-V>` to paste the SSH URL for the repository and then `<enter>`. 
 
 <br>
 
