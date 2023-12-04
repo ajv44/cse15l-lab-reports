@@ -8,7 +8,7 @@
 
 <br>
 
-*Summary*:
+*Summary*: The command essentially connects to the server at school.
 
 <br>
 
@@ -20,7 +20,7 @@
 
 <br>
 
-*Summary*:
+*Summary*: This clones the repository from GitHub.
 
 <br>
 
@@ -32,7 +32,7 @@
 
 <br>
 
-*Summary*:
+*Summary*: This first command changes to the `/lab7` directory that we got from the previous step. The next command executes a script. 
 
 <br>
 
@@ -45,7 +45,7 @@
 
 <br>
 
-*Summary*:
+*Summary*: To access the vim editor, we need to type `vim <filename>` which is what I did above. The `<j>` and `<l>` are strictly for navigating to the desired location, which in this case was on line 44. `<x>` is used to delete a character. `<i>` puts the editor into INSERT mode and `<esc>` leaves this mode. `<:wq!>` is used to save the changes and exit the vim editor. 
 
 <br>
 
@@ -57,7 +57,7 @@
 
 <br>
 
-*Summary*:
+*Summary*: This command executes the same script as **Step 6**.
 
 <br>
 
@@ -65,10 +65,10 @@
 <img width="728" alt="Screenshot 2023-12-03 at 9 56 32 PM" src="https://github.com/ajv44/cse15l-lab-reports/assets/146896794/a89df515-f8a5-44ef-b86c-ea9e17d2564d">
 <br>
 
-*Keys Pressed*: I first typed `git add.` then pressed `<enter>`. Next, I typed `git commit -m "lab report 4"` then pressed `<enter>`. Lastly, I typed `git push` then pressed `<enter>`
+*Keys Pressed*: I first typed `git add .` then pressed `<enter>`. Next, I typed `git commit -m "lab report 4"` then pressed `<enter>`. Lastly, I typed `git push` then pressed `<enter>`
 
 <br>
 
-*Summary*:
+*Summary*: `git add .` adds all of the changes in the current directory and its subdirectories to the staging area. `git commit -m "lab report 4"` commits the changes with the commit message in quotations. `git push` pushes those changes.
 
 <br>
