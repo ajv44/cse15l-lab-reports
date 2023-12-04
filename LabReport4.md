@@ -42,8 +42,8 @@
 <br>
 
 *Keys Pressed*: 
-I pressed and held <j> until I was on line 44. Then I pressed and held <l> until I was on the '1' in index1. I pressed <x>, <i>, and then typed '2'. 
-To quit and save, I typed <:wq!>
+I pressed and held `<j>` until I was on line 44. Then I pressed and held `<l>` until I was on the '1' in index1. I pressed `<x>`, `<i>`, then typed '2'. 
+Then I pressed`<esc>` and typed`<:wq!>`.
 
 <br>
 
